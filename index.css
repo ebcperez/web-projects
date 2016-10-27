@@ -9,11 +9,6 @@ header {
 	padding-top: 100px;
 }
 
-main {
-	text-align: center;
-	margin: 0% 25%;
-}
-
 footer {
 	text-align: center;
 	margin: 0% 0%;
@@ -22,6 +17,8 @@ footer {
 .title {
 	color: #EEE;
 	background-color: rgba(40,30,30,.5);
+	text-align: center;
+	margin: 0% 25%;
 }
 
 .menu {
