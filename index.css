@@ -14,6 +14,11 @@ main {
 	margin: 0% 25%;
 }
 
+footer {
+	text-align: center;
+	margin: 0% 0%;
+}
+
 .title {
 	color: #EEE;
 	background-color: rgba(40,30,30,.5);
@@ -48,6 +53,11 @@ main {
 	background-color: #444;
 }
 
+.contact a:hover {
+	color: #DDD;
+	background-color: #444;
+}
+
 h1 {
 	font-size: 70px;
 }
@@ -62,4 +72,10 @@ h3 {
 
 p {
 	font-size: 35px;
+}
+
+a {
+	padding: 15px;
+	text-decoration: none;
+	font-size: 25px;
 }
