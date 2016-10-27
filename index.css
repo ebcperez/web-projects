@@ -1,0 +1,65 @@
+* {
+	font-family: amatic sc;
+}
+header {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(10,0,0,0.5)), url(http://images6.alphacoders.com/309/309389.jpg);
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+	padding-top: 100px;
+}
+
+main {
+	text-align: center;
+	margin: 0% 25%;
+}
+
+.title {
+	color: #EEE;
+	background-color: rgba(40,30,30,.5);
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #411;
+	font-size: 35px;
+	display: block;
+	color: #CCC;
+	padding: 15px;
+}
+
+.panel {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #433;
+	font-size: 25px;
+	display: block;
+	color: #CCC;
+	padding: 10px;
+}
+
+.menu:hover {
+	background-color: #422;
+}
+.panel:hover {
+	background-color: #444;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+h2 {
+	font-size: 60px;
+}
+
+h3 {
+	font-size: 50px;
+}
+
+p {
+	font-size: 35px;
+}
