@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>A Website</title>
+        <link href="index.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Inconsolata|Lato|Open+Sans|Open+Sans+Condensed:300|Oxygen|Quicksand|Raleway|Source+Sans+Pro" rel="stylesheet">
+        
+    </head>
+    <body>
+	    <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+		<script>
+			$(document).ready(function(){
+				$('.panel').hide();
+				$('.title').hide();
+				$('.title').fadeIn(3000);
+				$('.content').hide();
+				$('.content').fadeIn(3000);
+			    $(".menu").click(function(){
+			        $(".panel").slideToggle("fast");
+			    });
+			});
+		</script>
+    	<div class='menu'>MENU</div>
+    	<div class='panel'>PANEL</div>
+    	<div class='panel'>PANEL</div>
+    	<div class='panel'>PANEL</div>
+    	<div class='panel'>PANEL</div>
+    	<header>
+    		<div class='title'>
+    			<h1>TITLE</h1>
+    			<h2>SUBHEADER</h2>
+    		</div>
+    	</header>
+    	
+    	<main class='content'>
+    		<h3>CONTENT TITLE</h3>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa facilis, labore debitis nesciunt ipsam odio corporis architecto reiciendis voluptas ab quibusdam ratione rerum tempore voluptatibus libero cumque dignissimos vero hic!</p>
+    	</main>
+    </body>
+</html>
