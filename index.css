@@ -4,7 +4,7 @@
 header {
     background: linear-gradient(rgba(0,0,0,0.5),rgba(10,0,0,0.5)), url(http://images6.alphacoders.com/309/309389.jpg);
     background-size: cover;
-    height: 500px;
+    height: 400px;
     text-align: center;
 	padding-top: 100px;
 }
@@ -32,7 +32,11 @@ footer {
 	font-size: 35px;
 	display: block;
 	color: #CCC;
-	padding: 15px;
+	padding: 25px;
+}
+
+.navi {
+	position: absolute;
 }
 
 .panel {
@@ -40,10 +44,11 @@ footer {
     padding: 0;
     overflow: hidden;
     background-color: #433;
-	font-size: 25px;
+	font-size: 35px;
 	display: block;
 	color: #CCC;
-	padding: 10px;
+	padding: 20px;
+	float: left;
 }
 
 .menu:hover {
