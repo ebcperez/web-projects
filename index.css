@@ -6,7 +6,11 @@ header {
     background-size: cover;
     height: 400px;
     text-align: center;
-	padding-top: 100px;
+    padding-top: 100px;
+}
+
+main {
+	text-align: center;
 }
 
 footer {
@@ -17,7 +21,6 @@ footer {
 .title {
 	color: #EEE;
 	background-color: rgba(40,30,30,.5);
-	text-align: center;
 	margin: 0% 25%;
 }
 
