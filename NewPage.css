@@ -1,0 +1,85 @@
+* {
+	font-family: amatic sc;
+	text-align: center;
+}
+
+header {
+	background-image: url('http://www.conservation.org/SiteCollectionImages/ci_84406001.jpg?RenditionID=9');
+	background-size: cover;
+	height: 200px;
+	padding-top: 20px;
+}
+
+.title {
+	color: #CCC;
+	background-color: rgba(40,30,30,0.7);
+	margin: -4% 30%;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #411;
+	font-size: 35px;
+	display: block;
+	color: #CCC;
+	padding: 20px;
+	text-align: left;
+}
+
+.navi {
+	position: absolute;
+}
+
+.panel {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #422;
+	font-size: 30px;
+	display: block;
+	color: #CCC;
+	padding: 20px;
+	float: left;
+}
+
+.panel:hover {
+	background-color: #444;
+}
+
+.contact {
+	padding-bottom: 15px;
+}
+
+.contact a:hover {
+	color: #DDD;
+	background-color: #444;
+}
+
+#space {
+	padding: 10px;
+	background-color: #411;
+}
+
+h1 {
+	font-size: 100px;
+}
+
+h2 {
+	font-size: 55px;
+}
+
+h3 {
+	font-size: 45px;
+}
+
+p {
+	font-size: 35px;
+}
+
+a {
+	padding: 15px;
+	text-decoration: none;
+	font-size: 25px;
+}
