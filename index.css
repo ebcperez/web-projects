@@ -1,27 +1,20 @@
 * {
 	font-family: amatic sc;
+	text-align: center;
 }
+
 header {
     background: linear-gradient(rgba(0,0,0,0.5),rgba(10,0,0,0.5)), url(http://images6.alphacoders.com/309/309389.jpg);
     background-size: cover;
     height: 400px;
     text-align: center;
-    padding-top: 100px;
-}
-
-main {
-	text-align: center;
-}
-
-footer {
-	text-align: center;
-	margin: 0% 0%;
+	padding-top: 20px;
 }
 
 .title {
 	color: #EEE;
-	background-color: rgba(40,30,30,.5);
-	margin: 0% 25%;
+	background-color: rgba(40,30,30,.7);
+	margin: -4% 30%;
 }
 
 .menu {
@@ -32,7 +25,8 @@ footer {
 	font-size: 35px;
 	display: block;
 	color: #CCC;
-	padding: 25px;
+	padding: 20px;
+	text-align: left;
 }
 
 .navi {
@@ -43,19 +37,20 @@ footer {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #433;
-	font-size: 35px;
+    background-color: #422;
+	font-size: 30px;
 	display: block;
 	color: #CCC;
 	padding: 20px;
 	float: left;
 }
 
-.menu:hover {
-	background-color: #422;
-}
 .panel:hover {
 	background-color: #444;
+}
+
+.contact {
+	padding-bottom: 15px;
 }
 
 .contact a:hover {
@@ -63,16 +58,21 @@ footer {
 	background-color: #444;
 }
 
+#space {
+	padding: 10px;
+	background-color: #411;
+}
+
 h1 {
-	font-size: 70px;
+	font-size: 100px;
 }
 
 h2 {
-	font-size: 60px;
+	font-size: 55px;
 }
 
 h3 {
-	font-size: 50px;
+	font-size: 45px;
 }
 
 p {
