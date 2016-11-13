@@ -1,0 +1,25 @@
+.content {
+	margin-bottom: 20px;
+}
+.content_main {
+	margin-top: 60px;
+}
+.red-font {
+	color: red;
+}
+#banner {
+	background-color: #666;
+}
+#footer {
+	background: #444;
+	color: white;
+	padding-top:50px;
+	padding-bottom:50px;
+	margin-top: 180px;
+}
+#navbar_design {
+	background-color: #333;
+}
+#navbar-brand {
+	color: #DDD;
+}

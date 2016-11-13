@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>timeAdd</title>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="./index.js"></script>
+        <link href="./index.css" rel="stylesheet" type="text/css" />
+		
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    	
+		<div id="banner" class="jumbotron container-fluid text-center">
+    			<h1>timeAdd</h1>
+    	</div>
+    	<div class="container-fluid content_main">
+    		<div id="calculate" class="content col-xs-12 col-sm-12 col-md-12 col-lg-12 container-fluid text-center">
+				<div class="container-fluid">
+					<p id="warningmsg">Enter time in 4 digit format. i.e.: 01:00 = 0100</p>
+					<label>Mins/Secs:</label>
+					<input type="text" id="time" pattern=".{4,4}" required title="4 characters" maxlength="4" placeholder="0000">
+					<button class="btn btn-default" id="addButton">Add</button>
+					<button class="btn btn-default" id="clearButton">Clear</button>
+				</div>	
+    		</div>
+    		<div class="content col-xs-12 col-sm-12 col-md-12 col-lg-12 container-fluid">
+				<p id="total"></p>
+    			<ul id="results" class="list-group">
+				</ul>
+    		</div>
+    	</div>
+    	
+    	<footer id="footer" class="container-fluid text-center img-center">
+	        <p>Created with jQuery</p>
+	    </footer>
+    </body>
+</html>
